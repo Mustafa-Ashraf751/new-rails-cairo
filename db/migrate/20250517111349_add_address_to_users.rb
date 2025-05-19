@@ -3,3 +3,4 @@ class AddAddressToUsers < ActiveRecord::Migration[8.0]
     add_column :users, :address, :string, null: false, default: "No address provided"
   end
 end
+   
